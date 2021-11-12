@@ -1,0 +1,142 @@
+body {
+    background-image: url("pics/stars.jpg");
+    background-color: black;
+    margin: 0px 5px 50px 5px;
+}
+
+/* nav bar css */
+.nav {
+    display: flex;
+    height: 50px;
+    width: 100vw;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a:hover {
+    color: aqua
+}
+
+/* start of page 1 css */
+h1 {
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    font-style: oblique;
+    font-variant: small-caps;
+    color: white;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+}
+
+p {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-variant: small-caps;
+    padding: 15px;
+}
+
+.one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box5 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-variant: small-caps;
+    padding: 15px;
+}
+
+/* start of page 2 css */
+.box3 {
+    display: flex;
+    justify-content: center;
+}
+
+.two {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-variant: small-caps;
+    row-gap: 50px;
+}
+
+.box7 {
+    display: flex;
+    justify-content: center;
+}
+
+.box12 {
+    display: flex;
+    justify-content: center;
+}
+
+.box16 {
+    display: flex;
+    justify-content: center;
+}
+
+.box20 {
+    display: flex;
+    justify-content: center;
+}
+
+/* start of page 3 css*/
+.three {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-variant: small-caps;
+    row-gap: 50px;
+}
+
+.box33 {
+    display: flex;
+    justify-content: center;
+}
+
+/* start of page 4 css */
+
+.four {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 50px;
+
+}
+
+h2 {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    font-weight: bolder;
+    font-variant: small-caps;
+}
